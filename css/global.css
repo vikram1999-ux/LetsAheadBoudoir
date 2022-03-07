@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital@0;1&family=Playfair+Display&family=Poppins:wght@300;400;600&display=swap');
+
+html {scroll-behavior:smooth;}
+body {background:#fff; color:#5d5d5d; font-family: 'Open Sans', sans-serif; font-size:15px; font-weight:400; line-height:1.6;}
+
+@font-face {
+    font-family: 'Photograph Signature';
+    src: url('../fonts/PhotographSignature.woff2') format('woff2'),
+        url('../fonts/PhotographSignature.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.font-photograph {font-family: 'Photograph Signature';}
+.font-lato {font-family: 'Lato', sans-serif;}
+.font-open {font-family: 'Open Sans', sans-serif;}
+.font-playfair {font-family: 'Playfair Display', serif;}
+.font-poppins {font-family: 'Poppins', sans-serif;}
+    
+*, *:focus {outline:none !important; transition:all 0.3s ease 0s;}
+
+a {text-decoration:none !important; color:#5d5d5d;} a:hover{color:#afa286;}
+p{margin-bottom:25px;} .nomrgn{margin:0px !important;}
+
+.Bor:after {border-bottom:1px solid #afa286; content:"";display:block; margin:0 auto 40px auto; padding-bottom:30px; width:115px;}
+.Bor1:after {border-bottom:1px solid #464646; content:"";display:block; margin:0 auto 0px auto; padding-bottom:30px; width:100%;}
+.Bor2:after {border-bottom:1px solid #a48d34; content:"";display:block; margin:0 0px 20px 0px; padding-bottom:30px; width:115px;}
+.Bor3:after {border-bottom:1px solid #afa286; content:"";display:block; margin:0 0px 20px 0px; padding-bottom:30px; width:115px;}
+
+.border-5 {border-width: 24px !important;}
+.breadcrumb{color:#818181; margin:0px; background-color:transparent;padding:0 0 15px; font-size:12px; border-bottom:solid 1px #dddddd;}
+.breadcrumb>li+li:before{content:"\27A4";color:#818181; margin:0 10px;}
+.breadcrumb a{color:#487201;}
+
+/******* Helpers ********************************************************************/
+.ImgFade{background-color:#000; border-radius:10px !important;}
+.ImgFade img{opacity: 0.3; filter: alpha(opacity=30); border-radius:10px !important; /* For IE8 and earlier */}
+.box-shadow{box-shadow:10px 10px 20px rgba(0,0,0,0.1);}
+
+hr{background-color:#fff !important;}
+
+/***************************/
+.btn{moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;text-decoration:none !important; font-weight:600; font-size:12px; padding:16px 35px; font-family: 'Poppins', sans-serif; vertical-align:top; text-transform:uppercase; letter-spacing:.1em; border-radius:0px; box-shadow:none !important;}
+
+.btn-outline-danger{background:transparent !important; border-color:#71190b !important;color:#fff !important;}
+.btn-outline-danger:hover,.btn-outline-danger.focus,.btn-outline-danger:focus{background-color:#afa286 !important; border-color:#afa286 !important;color:#fff !important;}
+.btn-secondary{background:#afa286 !important; border-color:#afa286 !important;color:#fff !important;}
+.btn-secondary:hover,.btn-secondary.focus,.btn-secondary:focus{background:transparent !important; border-color:#71190b !important;color:#fff !important;}
+
+
+.btn.btn-lg{padding:16px 55px !important;}
+.btn.btn-sm{padding: 16px 45px !important;}
+/*****************************/
+.fw-light{font-weight:300 !important;}
+.fw-normal{font-weight:400 !important;}
+.fw-semi{font-weight:600 !important;}
+
+.fs-12{font-size:12px !important;}
+.fs-13{font-size:13px !important;}
+.fs-34{font-size:34px !important;}
+.fs-51{font-size:51px !important;}
+
+.lh-1{line-height:1 !important;}
+.lh-16{line-height:0.6 !important;}
+
+.ls-20{letter-spacing:-.020em !important;}
+.ls-2{letter-spacing:.2em !important;}
+.ls-3{letter-spacing:.3em !important;}
+.ls-4{letter-spacing:.4em !important;}
+
+
+.bg-dark {background:#0e0b07 !important;}
+.bg-danger {background:#210c0c !important;}
+/*****************************/
+.text-dark {color:#000 !important;}
+.text-secondary {color:#d3d3d3 !important;}
+.text-primary {color:#afa286 !important;}
+.text-info {color:#a5a5a5 !important;}
+.text-danger {color:#1e1e1e !important;}
+.text-warning {color:#121212 !important;}
+/*****************************/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {font-family: 'Playfair Display', serif; line-height:1; font-weight:400;}
+h1, .h1 {font-size:60px;}
+h2, .h2 {font-size:33px;}
+h3, .h3 {font-size:20px;}
+h4, .h4 {font-size:18px;}
+h5, .h5 {font-size:12px;}
+
+/*******************************************************************/
+input.form-control,input.form-control:focus {font-size: 13px; height: calc(2.5em + 1.2rem + 2px); box-shadow:none;font-family: 'Source Sans Pro', sans-serif;}
+select.form-control {font-size:13px; height:calc(1.5em + 1.2rem + 2px);}
+textarea.form-control {font-size:13px; resize:none;}
+textarea.form-control:not([rows]) {height:136px;}
+.form-control::-moz-placeholder {color:#272727; opacity: 1;}
+
+/**************************************************************/
+.MainBanner .mask{position:absolute; top:0px; right:0%; left:0%; z-index:9; background:url(../images/bnr_shadow.png) repeat-x top; min-height:100%;}
+.MainBanner .carousel-indicators {z-index:999; bottom:100px; left:inherit; right:12px; margin-left:0px; margin-right:0px;}
+.MainBanner .carousel-indicators li {background-color:transparent; opacity:1;border-radius:0; width:28px; height:4px; border:solid 1px #a1a1a1; margin:0px 5px;} 
+.MainBanner .carousel-indicators .active {background-color:#afa286 !important;width:28px; height:4px;}
+
+/****************************************************************/
+.Borderhd {line-height: 0.5;text-align: center;}
+.Borderhd span {display: inline-block;position: relative;  }
+.Borderhd span:before,.Borderhd span:after {content: "";position: absolute; border-bottom-color:#b8b8b8 !important; border-bottom:double; border-width:4px; top:8px;width:50%;}
+.Borderhd span:before {right: 100%;margin-right:45px;}
+.Borderhd span:after {left: 100%;margin-left:45px;}
+
+
+/***********************************************************************/
+ul.orange li {color: #3c3c3c;list-style: none;position: relative;}
+ul.orange li::before {color: #f69322; content: "\2022"; font-size:1.5em; position: absolute; top: -8px; left: -20px;}
+
+/********** Back To Top Button ***************************************************************************************************/
+#scroll {position:fixed; right:10px; bottom:10px; z-index:99999; cursor:pointer; width:45px; height:45px; text-align:center; line-height:43px; background:#afa286; color:#fff !important;}
+#scroll:hover {opacity:.7;}

@@ -1,0 +1,139 @@
+/************************************************* Header ********************************************************************/
+#Header .list-inline a{font-size:15px;color:#afa286 !important;} 
+#Header .list-inline a:hover{color:#fff !important;}
+#Header .list-inline-item:not(:last-child) {margin-right:17px;}
+
+/********** Main Banner **************************************************************************************************/
+.MainBanner .carousel-caption {z-index:99;display:flex;justify-content:center;align-items:center;margin:auto;top:0;left:0;bottom:0;right:0;} 
+/********** Welcome **************************************************************************************************/
+#Welcome .mt-n5{margin-top:-38px;} #Welcome .mt-n4{margin-top:-20px;} #Welcome .w-50{width:64% !important;}
+/**********Booking **************************************************************************************************/
+#Booking .btn-secondary:hover,.btn-secondary.focus,.btn-secondary:focus{background:transparent !important; border-color:#71190b !important;color:#71190b !important;}
+#Booking .position-img{position:absolute; bottom: -60px;left: -45px;right: 350px;} #Booking .mrgn{ margin-right: 130px;}
+#Booking .Block::after {border-top: solid 1px #71190b;border-bottom: solid 1px #71190b;border-left: solid 1px #71190b;border-right: solid 1px #71190b;content: '';position: absolute;
+left: -80px;top: 104px;right: 0px;z-index: -1;bottom: 70px;}
+/**********Testimonials **************************************************************************************************/
+#Testimonials .btn-secondary:hover,.btn-secondary.focus,.btn-secondary:focus{background:transparent !important; border-color:#71190b !important;color:#71190b !important;}
+#Testimonials .bg-white {position: relative;right: 130px; padding: 100px 100px 30px 100px; width: 700px; top:80px;}  #Testimonials .w-50{width:90% !important;}
+#Testimonials .Slider {position: relative; padding:0 50px;}
+#Testimonials .Slider .cycle-prev, #Testimonials .Slider .cycle-next {position:absolute; top:93%; right:0px; z-index:99; cursor:pointer;}
+#Testimonials .Slider .cycle-prev {left:0px; right:auto;}
+#Testimonials .Slider .slideshow {overflow:hidden;}
+#Testimonials .Slider .slideshow .isItem {white-space:normal; vertical-align:top;}
+/**********Gallery **************************************************************************************************/
+#Gallery .Slider {position: relative; padding:0 50px;}
+#Gallery .Slider .cycle-prev, #Gallery .Slider .cycle-next {position:absolute; top:93%; right:0px; z-index:99; cursor:pointer;}
+#Gallery .Slider .cycle-prev {left:0px; right:auto;}
+#Gallery .Slider .slideshow {overflow:hidden;}
+#Gallery .Slider .slideshow .isItem {white-space:normal; vertical-align:top;}
+#Gallery a {text-decoration: underline !important;text-underline-offset: 3px !important;color: #694f24 !important;} #Gallery .text-color {color: #cca248;font-size: 12px; letter-spacing:.1em;} #Gallery .position-img{position:relative;}
+#Gallery a:hover{color:#fff !important;} #Gallery a:hover .text-color{color:#fff !important;}  #Gallery .text-position{position: absolute;bottom: 70px;padding-left: 30px;}
+/************************************************* Contact ********************************************************************/
+#ContactForm {position:relative; background:#0e0b07; display:block; min-height:725px; z-index:1;display:flex; justify-content:center; align-items:center;}
+#ContactForm:after {content:''; background:url(../images/contact-bg.png) no-repeat top center; opacity:.15; position:absolute; z-index: -1; top:0; bottom:0; left:0; right:0; background-size:cover;}
+#ContactForm p{font-size:15px; letter-spacing:-.020em;}
+#ContactForm .form-group {margin-bottom:10px;}
+#ContactForm .form-control{font-size:12px; border-color:#504e4c; border-radius:0; height:62px; color:#fff;background: rgba(255,255,255,.30 ) !important; padding-left:16px;}
+#ContactForm .form-control::placeholder{color:#fff; font-family: 'Lato', sans-serif;}
+#ContactForm textarea.form-control{height:207px; padding:29px;}
+.form-control:focus {outline:none !important;outline-width: 0 !important;box-shadow: none;-moz-box-shadow: none;-webkit-box-shadow: none;}
+textarea:focus ,textarea.form-control:focus {outline:none !important;outline-width: 0 !important;box-shadow: none;-moz-box-shadow: none;-webkit-box-shadow: none;}
+/********** Footer ***************************************************************************************************/
+#Footer{color:#fff; font-size:13px; line-height:2;}
+#Footer a{color:#fff;} #Footer a:hover, #Footer .footer-links a:hover{color:#a5997b !important;} #Footer .social-links a:hover{color:#fff !important;}
+#Footer .footer-links a{font-size:16px; margin:0px; color:#fff;}
+#Footer .footer-links .list-inline-item:not(:last-child) {margin-right:34px;}
+#Footer .social-links a{font-size:19px; margin:0px; color:#a5997b;}
+#Footer .social-links .list-inline-item:not(:last-child) {margin-right:26px !important;}
+#Footer .Copytext{color:#fff; font-size:13px;} 
+#Footer .fa-lg{font-size:16px; color:#a5997b;}
+
+.Listing {padding:0px; margin:0px; list-style-type:none;}
+.Listing li{color:#fff; background:#7db916 url(../images/icon1.png) no-repeat 1.1em 1.45em; padding:14px 0 12px 45px; margin:0 0 1px; border-radius:6px;}
+.Listing li a{color:#fff;} .Listing li a:hover{color:#000;}
+
+
+/*************************************************************************************************************/
+.container-new{max-width:1920px !important; padding-right:15px; padding-left:15px;margin-right: auto;margin-left: auto;}
+.container-fluid{max-width:1750px !important;}
+.container{max-width:1310px !important;}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 1025px) {
+	.navbar .nav-item .dropdown-menu{ display:none;}
+	.navbar .nav-item:hover .nav-link{ color:#fff;}
+	.navbar .nav-item:hover .dropdown-menu{ display:block;}
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}	
+/* ============ desktop view .end// ============ */
+
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(0,0,0,.95); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:9999;}
+.Logo img {max-height:78px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .Logo img {max-height:78px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;} .Logo{padding-top:40px;}
+.Homebnr .carousel-item img {
+    height: 980px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+	 
+	#Gallery .custom-img img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+
+}
+.gx-2 {margin-left:-4px!important;margin-right:-4px!important;}
+.gx-2 div[class^="col"]{padding-left:4px!important;padding-right:4px!important;} 
+@media (min-width: 1920px) {#Header .me-xl-n5 {margin-right: -130px !important;} .MainBanner .carousel-indicators {right: 95px !important;} #Welcome .w-50 {width: 62% !important;}
+
+}
+@media (min-width: 1200px) {#Header .me-xl-n5{margin-right: -95px;}
+
+}
+
+
+@media (min-width: 1600px) {#Welcome .w-50 {width: 62%;}
+
+}
+
+
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {#Header .me-xl-n5{margin-right: -65px;} #Footer .Bor1::after {width: 80%;}}
+
+
+/*@include media-breakpoint-between(md, xl) { ... }*/
+@media (min-width: 991.98px) and (max-width: 1199.98px){#Header .me-xl-n5 {margin-right: -30px;} h1, .h1 {font-size: 40px;} #Welcome .w-50 {width: 100% !important;} h2, .h2 {font-size: 25px;} #Booking .position-img {right: 150px;} #Gallery .text-position {width: 30%;} #ContactForm {min-height: 525px;} #Footer .Bor1::after {width: 80%;} #Gallery .Slider .cycle-prev, #Gallery .Slider .cycle-next {top: 89%;}
+}
+
+/*For example the @include media-breakpoint-only(md) { ... } will result in :*/
+@media (min-width: 768px) and (max-width: 991.98px) {#Header{position:static; background:#0e0b07;} .Logo{padding-top:20px; padding-bottom:20px;} h1, .h1 {font-size: 35px;} .MainBanner .carousel-indicators {bottom: 20px;left: 0;right: 0;} #Welcome .w-50 {width: 100% !important;} #Welcome .fs-34 {font-size: 30px !important;} #Welcome .mt-n5 {margin-top: -30px;} h2, .h2 {font-size: 25px;} #Booking .position-img {right: 150px;} #Booking .Block::after{bottom:30px;} #Gallery .text-position {width: 30%;} #Gallery .Slider .cycle-prev, #Gallery .Slider .cycle-next {top: 83%;} #ContactForm {min-height: 525px;} #Footer .Bor1::after {width: 80%;} 
+
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width:767.98px) {#Header{position:static; background:#0e0b07;} .Logo{padding-top:20px;} h1, .h1 {font-size: 35px;} .MainBanner .carousel-indicators {bottom: 20px;left: 0;right: 0;} #Welcome .w-50 {width: 100% !important;} #Welcome .fs-34 {font-size: 30px !important;} #Welcome .mt-n5 {margin-top: -30px;} h2, .h2 {font-size: 25px;} #Booking .mrgn {
+margin-right: 0px;} #Booking .Block::after {left: 0px;}#Booking .position-img {bottom: -30px;left: 30px;right: 250px;} #Gallery .text-position {width: 30%;} #Gallery .text-position {bottom: 50px;} #Gallery .Slider .cycle-prev, #Gallery .Slider .cycle-next {top: 85%;} #Footer .footer-links .list-inline-item:not(:last-child) {margin-right: 20px;} #Footer .footer-links a {font-size: 13px;} #ContactForm .form-control {height: 50px;} #ContactForm textarea.form-control {height: 170px;}
+}
+
+@media (max-width:575.98px) {.MainBanner .carousel-caption .ls-4 {letter-spacing: 0em !important;} .MainBanner .carousel-caption h1 {font-size: 30px !important;}.Logo{padding-top:20px; padding-bottom:10px;} #Footer .footer-links .list-inline-item{display:block; margin-bottom:10px;} #Footer .footer-links .list-inline-item:not(:last-child) {margin-right: 0px;} #Footer .phone{display:block;} #Gallery .text-position {width: 60%;} .Homebnr .carousel-item img {
+    height: 230px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+	#Booking .img-width{width:90%;} #Booking .position-img {left: 10px;right: 50px;} #Booking .Block::after {top: 60px;bottom: 60px;}
+}
+/* X-Small devices (portrait phones, less than 576px) */
